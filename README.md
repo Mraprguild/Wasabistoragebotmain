@@ -15,12 +15,11 @@ A powerful Telegram bot integrated with **Wasabi Cloud Storage** — enabling se
 Create a `.env` file in your project root:
 
 Telegram Bot Configuration
+'''bash
 API_ID=1234567
 API_HASH=your_api_hash
 BOT_TOKEN=your_bot_token
 ADMIN_ID=123456789
-
-Wasabi Storage Configuration
 WASABI_ACCESS_KEY=your_wasabi_access_key
 WASABI_SECRET_KEY=your_wasabi_secret_key
 WASABI_REGION=your-region
