@@ -38,7 +38,7 @@ git clone https://github.com/Mraprguild/Wasabistoragebotmain.git
 
 cd Wasabistoragebotmain
 
-pip install pyproject.toml
+pip install -r requirements.txt
 
 Run the Bot
 
