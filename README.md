@@ -33,17 +33,10 @@ WASABI_ENDPOINT=https://s3.wasabisys.com
 
 Clone the Repository
 
+```bash
 git clone https://github.com/Mraprguild/Wasabistoragebotmain.git
 
 cd Wasabistoragebotmain
-
-Create a Virtual Environment
-
-python -m venv venv
-source venv/bin/activate # Linux/Mac
-venv\Scripts\activate # Windows
-
-Install Dependencies
 
 pip install -r requirements.txt
 
@@ -51,6 +44,8 @@ Run the Bot
 
 python bot.py
 
+
+```
 
 ## 💬 Bot Commands
 | Command | Description |
