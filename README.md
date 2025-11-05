@@ -28,7 +28,7 @@ WASABI_REGION=your-region
 WASABI_BUCKET=your-bucket-name
 WASABI_ENDPOINT=https://s3.wasabisys.com
 
-
+```
 ## 🧰 Installation
 
 Clone the Repository
