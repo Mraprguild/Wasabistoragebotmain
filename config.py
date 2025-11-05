@@ -18,4 +18,4 @@ WASABI_REGION = os.getenv("WASABI_REGION", "ap-northeast-1")
 WASABI_ENDPOINT_URL = os.getenv("WASABI_ENDPOINT_URL", "https://s3.wasabisys.com")
 
 # Welcome image URL (you can replace this with your own image)
-WELCOME_IMAGE_URL = "https://raw.githubusercontent.com/Mraprguild8133/Telegramstorage-/refs/heads/main/IMG-20250915-WA0013.jpg"
+WELCOME_IMAGE_URL = "https://raw.githubusercontent.com/Mraprguild/Wasabistoragebotmain/refs/heads/main/welcome.jpg"
