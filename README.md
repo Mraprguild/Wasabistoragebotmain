@@ -3,28 +3,31 @@
 A powerful Telegram bot integrated with **Wasabi Cloud Storage** — enabling seamless file upload, download, and streaming directly through Telegram. Built with Python and designed for reliability, security, and performance.
 
 ## 🚀 Features
-- 4GB File Support — Upload and download large files via Telegram  
-- Wasabi Cloud Integration — Secure and scalable storage with direct access links  
-- Direct Streaming Links — Stream videos using MX Player, VLC, or any external player  
-- Admin Panel — Manage users, monitor storage, and control access  
-- URL Shortening Support — Optional feature for short download links  
-- User-Friendly Commands — Simple interface with clear Telegram commands  
-- .env Configuration — Easy environment variable setup for deployment
+- **4GB File Support** — Upload and download large files via Telegram  
+- **Wasabi Cloud Integration** — Secure and scalable storage with direct access links  
+- **Direct Streaming Links** — Stream videos using MX Player, VLC, or any external player  
+- **Admin Panel** — Manage users, monitor storage, and control access  
+- **URL Shortening Support** — Optional feature for short download links  
+- **User-Friendly Commands** — Simple interface with clear Telegram commands  
+- **.env Configuration** — Easy environment variable setup for deployment  
 
 ## ⚙️ Configuration
 Create a `.env` file in your project root:
 
-Telegram Bot Configuration
-'''bash
+```bash
+# Telegram Bot Configuration
 API_ID=1234567
 API_HASH=your_api_hash
 BOT_TOKEN=your_bot_token
 ADMIN_ID=123456789
+
+# Wasabi Storage Configuration
 WASABI_ACCESS_KEY=your_wasabi_access_key
 WASABI_SECRET_KEY=your_wasabi_secret_key
 WASABI_REGION=your-region
 WASABI_BUCKET=your-bucket-name
 WASABI_ENDPOINT=https://s3.wasabisys.com
+
 
 ## 🧰 Installation
 
